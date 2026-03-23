@@ -15,43 +15,44 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Technical Operations Lead</h4>
+                <h5>eClinicalWorks</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2018 - Present</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Delivered payment module products (Surcharge Fee, Card-on-File,
+              Payment Plans). Owned end-to-end delivery including PRDs, user stories,
+              acceptance criteria, and shipped 10+ product enhancements in one year.
+              Led cross-functional coordination between Product, Engineering, QA, and
+              Support; executed RCA and post-mortems per ITIL principles.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Master in Data Science & AI (In Progress)</h4>
+                <h5>BITS Pilani</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2025 – Present</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Expanding analytics and AI expertise with machine learning,
+              statistics, and applied data science to support data-driven product
+              strategy and consulting outcomes.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Bachelor's in Computer Science</h4>
+                <h5>Thakur College, Mumbai University</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2017</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Foundational undergraduate degree in computer science with
+              technical coursework in programming, databases, and IT systems.
             </p>
           </div>
         </div>

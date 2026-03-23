@@ -1,38 +1,27 @@
 import { useState, useCallback } from "react";
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Surcharge Fee Module",
+    category: "SQL · Tomcat · ePayment API · JIRA · PRD",
+    tools: "Filed a SQL-traced bug → hotfix in 48hrs. Authored runbook used by 20+ engineers.",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "Card-on-File Management",
+    category: "SQL · ePayment API · JIRA · UX Proposal",
+    tools: "Cut support tickets 35% in 6 months. UX improvement shipped in next release.",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "Payment Plan Workflows",
+    category: "SQL · IBM Cognos · ePayment API · JIRA",
+    tools: "Fixed DST-offset defect, contributed 5 user stories, led full UAT.",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "NYC FHV Demand Forecasting",
+    category: "Python · Scikit-Learn · Pandas · ML · BITS Pilani",
+    tools: "ML model using Python/Scikit-Learn for ride-hailing optimization (BITS Pilani).",
   },
 ];
 
@@ -109,13 +98,10 @@ const Work = () => {
                           {project.category}
                         </p>
                         <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
+                          <span className="tools-label">Details</span>
                           <p>{project.tools}</p>
                         </div>
                       </div>
-                    </div>
-                    <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
                     </div>
                   </div>
                 </div>

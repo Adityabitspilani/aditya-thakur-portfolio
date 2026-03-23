@@ -1,6 +1,6 @@
-# My Portfolio Wesbite - Overview 🚀
+# Aditya Resume - Overview 🚀
 
-This repository contains the open source version of my porfolio website.
+This repository contains the open source version of my resume/portfolio website.
 Do check it out!
 
 ## Instructions 🛠️

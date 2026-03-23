@@ -6,11 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Full Stack Developer with 4+ years of experience building scalable web
-          applications using React.js, Angular, Next.js, Node.js, and NestJS. Skilled
-          in microservices architecture, CMS development, and low-code platforms.
-          Passionate about creating high-performance, production-ready solutions
-          from concept to deployment.
+          eClinicalWorks in Technical Operations — working deep inside a US healthcare SaaS product, managing 100+ enterprise clients, contributing user stories and bug reports that shipped into the product, and leading a team of 20+ engineers. Now channelling that field-level product intuition into a formal PM/Consulting career, backed by an M.Sc. in Data Science & AI from BITS Pilani.
         </p>
       </div>
     </div>
